@@ -2,6 +2,10 @@
 
 ## Indexer params
 
+After `confirmation` blocks, `bridge-send` tx will be confrimed by indexer and can be claimed on dst chain.
+
+Only `bridge-recv` txs after the confirmation timestamp on src chain will be processed by indexer.
+
 ### Supported source chain
 
 * Goerli

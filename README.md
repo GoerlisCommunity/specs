@@ -17,6 +17,13 @@ The community-driven inscription protocol.
 * Now the protocol only supports data starting with `data:${mimetype},${data}`
 * Empty mime type will be recoginzed as `application/json`
 
+## Global params
+
+* Goerli
+  * Confirmation: `15`
+* Ethereum mainnet
+  * Confirmation: `15`
+
 ## Draft Specs
 
 * [`Deploy`](ops/deploy.md)
