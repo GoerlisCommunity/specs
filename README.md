@@ -11,7 +11,11 @@ The community-driven inscription protocol.
 
 * Currently, contract interaction is not supported.
 * All txs should be sent to the tx sender with 0 value.
-* Now the protocol only supports data starting with `data:,`
+* Calldata should be in compact form like `data:,{"p":"grc-20","op":"mint","tick":"gors","amt":"10"}` without `\n` and `space`.
+* Parmas should follow the order defined in specs.
+* If tx param contains invalid data, the whole tx will be ignored.
+* Now the protocol only supports data starting with `data:${mimetype},${data}`
+* Empty mime type will be recoginzed as `application/json`
 
 ## Draft Specs
 
