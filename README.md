@@ -20,19 +20,21 @@ The community-driven inscription protocol.
 ## Global params
 
 * Goerli
-  * Confirmation: `15`
+  * Confirmation: `6`
 * Ethereum mainnet
-  * Confirmation: `15`
+  * Confirmation: `6`
+
+## Formal Specs
+
+* [`Bridge`](ops/bridge.md)
 
 ## Draft Specs
 
 * [`Deploy`](ops/deploy.md)
 * [`Mint`](ops/mint.md)
-* [`Bridge`](ops/bridge.md)
+* [`Transfer`](ops/transfer.md)
 
 ## TODO Specs
-
-* `Transfer` - there's no transfer spec being proposed yet
 
 ## Pull Requests are welcomed!
 

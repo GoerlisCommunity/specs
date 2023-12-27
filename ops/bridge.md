@@ -10,13 +10,13 @@ Only `bridge-recv` txs after the confirmation timestamp on src chain will be pro
 
 * Goerli
   * ChainId: `5`
-  * Start Block: `TBA`
+  * Start Block: `10246387`
 
 ### Supported destination chain
 
 * Ethereum Mainnet
   * ChainId: `1`
-  * Start Block: `TBA`
+  * Start Block: `18832512`
 
 ## Example
 
