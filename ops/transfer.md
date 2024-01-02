@@ -10,7 +10,7 @@ Smart Contract Transfer Spec.
 
 * Ethereum Mainnet
   * ChainId: `1`
-  * Start Block: `TBA`
+  * Start Block: `18898123`
 
 ## Example
 
